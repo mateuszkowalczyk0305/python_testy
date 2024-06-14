@@ -6,7 +6,7 @@
 
 ## Zadanie 1: Napisz skrypt pobierający próbki Analog Input (AI) oraz Digital Input (DI)
 ### Hardware:
-![makieta](makieta1.jpg)
+![makieta](makieta1.JPG)
 ### Kod:
 ```python
 import nidaqmx
