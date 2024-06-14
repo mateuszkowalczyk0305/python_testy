@@ -8,7 +8,7 @@
 ### Hardware:
 ![makieta](makieta1.jpg)
 ### Kod:
-'''python
+```python
 import nidaqmx
 from nidaqmx.constants import LineGrouping
 import time
@@ -39,7 +39,7 @@ with nidaqmx.Task() as ai_task, nidaqmx.Task() as di_task:
     
     except KeyboardInterrupt:
         print("Zatrzymano pobieranie próbek.")
-'''
+```
 
 ## Zadanie 2: Stwórz moduł do ciągłej akwizycji z AI
     - Proces akwizycji opakowany w klasie i umieszczony w oddzielnym module
